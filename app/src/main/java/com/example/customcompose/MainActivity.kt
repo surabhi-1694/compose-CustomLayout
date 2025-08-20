@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             CustomComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Custom CameraX",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
